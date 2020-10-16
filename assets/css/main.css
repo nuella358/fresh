@@ -1,0 +1,145 @@
+/* 
+* Farmsby Fresh
+* Style Guideline for Farmsby fresh
+*/
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+/* #### Biotif---*** #### */
+@font-face {
+    font-family: 'Biotif-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-Black'), url('../fonts/Biotif-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-BlackItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-BlackItalic'), url('../fonts/Biotif-BlackItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-Bold'), url('../fonts/Biotif-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-BoldItalic'), url('../fonts/Biotif-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-Book'), url('../fonts/Biotif-Book.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-BookItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-BookItalic'), url('../fonts/Biotif-BookItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-ExtraBold'), url('../fonts/Biotif-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-ExtraBoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-ExtraBoldItalic'), url('../fonts/Biotif-ExtraBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-Light'), url('../fonts/Biotif-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-LightItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-LightItalic'), url('../fonts/Biotif-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-Medium'), url('../fonts/Biotif-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-MediumItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-MediumItalic'), url('../fonts/Biotif-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-Regular'), url('../fonts/Biotif-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-RegularItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-RegularItalic'), url('../fonts/Biotif-RegularItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-SemiBold'), url('../fonts/Biotif-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Biotif-SemiBoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biotif-SemiBoldItalic'), url('../fonts/Biotif-SemiBoldItalic.ttf') format('truetype');
+}
+
+body, html {
+	margin: 0 auto;
+}
+
+header {
+	display: block;
+	height: auto;
+	min-height: 80px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+img.logo { width: 140px }
+
+ul.nav-menu li { 
+	list-style: none;
+	font-family: 'Biotif-SemiBold';
+}
